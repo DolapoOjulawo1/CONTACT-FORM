@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.whole-body{
+    background-color: #071a41;
+    max-width: 50%;
+    margin: 10px auto;
+    padding: 20px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    padding: 60px;
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: #071a41;
+    border: 1px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contact-us{
+    margin-right: 100px;
+    padding-bottom: 30px;
+    margin-top: -36px;
+}
+
+.header, .contactus-paragraph{
+    color: #aa39cd;
+}
+
+.header{
+    font-size: 40px;
+}
+
+.contactus-paragraph{
+    font-size: 12px;
+}
+
+
+.name-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name-section{
+    margin-right: 40px;
+}
+
+.form-label{
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 0px 8px 5px 0px;
+}
+
+.section{
+    margin-bottom: 10px;
+}
+
+.input-field{
+    width: 113%;
+    height: 25px;
+}
+
+.input-field, .section-input, .message{
+    border: 2px solid rgba(13, 56, 177, 0.15);
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffff;
+}
+
+
+.section-input{
+    width: 91%;
+    height: 25px;
+}
+
+
+.btn{
+  background: teal;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 5px;
+  width: 383px;
+  height: 30px;
+  margin-bottom: -10px;
 }
